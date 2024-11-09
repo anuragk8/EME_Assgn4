@@ -1,0 +1,30 @@
+#card-image{
+
+    width: 400px;
+    height: 400px;
+
+}
+.connect-with-me {
+    text-align: center;
+}
+
+.connect-with-me .list-inline-item {
+    margin: 0 10px;
+}
+
+.connect-with-me i {
+    color: #0077b5; /* LinkedIn blue */
+    transition: color 0.3s;
+}
+
+.connect-with-me i.fa-github {
+    color: #333; /* GitHub black */
+}
+
+.connect-with-me i.fa-envelope {
+    color: #d44638; /* Gmail red */
+}
+
+.connect-with-me a:hover i {
+    color: #0056b3; /* Darker shade on hover */
+}
